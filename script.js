@@ -27,7 +27,7 @@ function search(e){
 
 
 async function fetchData(target){
-    let endpoint = `http://api.weatherapi.com/v1/current.json?key=35af7ff606db422880d141328231305&q=${target}&aqi=no`
+    let endpoint = `https://api.weatherapi.com/v1/current.json?key=35af7ff606db422880d141328231305&q=${target}&aqi=no`
     
     const response = await fetch(endpoint)
 
